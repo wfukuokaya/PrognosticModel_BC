@@ -1,21 +1,23 @@
-# Prognostic model for patients with bladder cancer undergoing radical cystectomy
+# Prognostic model for radical cystectomy in bladder cancer
 
-This repository contains the R code used in the study "Development and Validation of a Model to Predict Outcomes of Radical Cystectomy in Patients with Bladder Cancer." The study aimed to develop a model to predict cancer-specific survival in patients with operable bladder cancer undergoing radical cystectomy. The model was developed using data from patients with bladder cancer who had undergone radical cystectomy without receiving adjuvant chemotherapy across 36 institutions in the Japan Urological Oncology Group. The total cohort was split in a 2:1 ratio into the development cohort and the validation cohort.
+R code for the analysis reported in:
 
-## Repository contents
+> Development and Validation of a Model to Predict Outcomes of Radical Cystectomy in Patients with Bladder Cancer.
 
-| File | Description |
-|---|---|
-| `main_script.R` | Analysis script (R) |
+Development and validation of a model for cancer-specific survival after radical cystectomy without adjuvant chemotherapy, using Japan Urological Oncology Group data from 36 institutions split 2:1 into development and validation cohorts.
+
+## Contents
+
+`main_script.R`: analysis.
 
 ## Requirements
 
-R (version 4.x) with the following packages: `broom`, `dcurves`, `ggfortify`, `ggsurvfit`, `glmnet`, `gtsummary`, `lubridate`, `missForest`, `patchwork`, `pec`, `rms`, `survival`, `survminer`, `tidymodels`, `tidyverse`, `timeROC`.
+R 4.x with `broom`, `dcurves`, `ggfortify`, `ggsurvfit`, `glmnet`, `gtsummary`, `lubridate`, `missForest`, `patchwork`, `pec`, `rms`, `survival`, `survminer`, `tidymodels`, `tidyverse`, `timeROC`.
 
-## Data availability
+## Data
 
-This repository contains analysis code only. The patient-level data analysed in the study are not distributed here.
+Patient-level data are not included in this repository.
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE).
+[MIT](LICENSE)
